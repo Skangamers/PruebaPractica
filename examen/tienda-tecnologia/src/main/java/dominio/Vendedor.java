@@ -44,7 +44,7 @@ public class Vendedor {
     				throw new NullPointerException("Este producto no cuenta con garantía extendida");
     			}else{   		
     		    		repositorioGarantia.agregar(garantia);
-    		    		System.out.print(garantia.getProducto());
+    		    		
     			}
     		        			
     		}
